@@ -13,7 +13,7 @@ Connection();
 
 const io = new Server(PORT, {
   cors: {
-    origin: "/",
+    origin: "*",
     methods: ["GET", "POST"],
   },
 });
